@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DomainDrivenDesign.Dekra
+﻿namespace DomainDrivenDesign.Dekra
 {
     public interface IDekraAdaptor
     {
+        Task<RawDekraCalculationResult> GetDekraCalculationAsync(string zip);
     }
 }
