@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/SortCollection/bin
+/SortCollection/obj
+/.vs
+/SortCollectionUnitTest/bin
+/SortCollectionUnitTest/obj
+TODO.txt
