@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainDrivenDesign.Domain",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainDrivenDesign.Application", "src\DomainDrivenDesign.Application\DomainDrivenDesign.Application.csproj", "{AF74CC41-443E-465F-B728-449742E56677}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adaptor", "Adaptor", "{DB8D994D-155A-4CFE-8E6D-2CCB033C2EFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainDrivenDesign.Dekra", "src\DomainDrivenDesign.Dekra\DomainDrivenDesign.Dekra.csproj", "{4ABC0ED7-CA8F-43F8-957F-D6BFE90E4EF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,10 @@ Global
 		{AF74CC41-443E-465F-B728-449742E56677}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF74CC41-443E-465F-B728-449742E56677}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF74CC41-443E-465F-B728-449742E56677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ABC0ED7-CA8F-43F8-957F-D6BFE90E4EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABC0ED7-CA8F-43F8-957F-D6BFE90E4EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABC0ED7-CA8F-43F8-957F-D6BFE90E4EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABC0ED7-CA8F-43F8-957F-D6BFE90E4EF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +66,8 @@ Global
 		{950CAFCF-A0E8-45DE-B440-1ACA66ABF895} = {A8F1D363-8D25-4BAF-B472-279F28D96801}
 		{BA5CC543-F297-4BFD-9815-622FDDC97B6E} = {1472FE5C-DD0B-48A2-8170-854B903AEDFD}
 		{AF74CC41-443E-465F-B728-449742E56677} = {DD1A190D-47BE-4FCE-ACF7-018E0C1405A4}
+		{DB8D994D-155A-4CFE-8E6D-2CCB033C2EFA} = {7C7B7EA9-B0C8-473E-BFEE-A379958FCBB1}
+		{4ABC0ED7-CA8F-43F8-957F-D6BFE90E4EF8} = {DB8D994D-155A-4CFE-8E6D-2CCB033C2EFA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E1C3DCE-17C6-4DFD-9A40-E96C83AEC03D}

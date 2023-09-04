@@ -2,8 +2,16 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/SortCollection/bin
-/SortCollection/obj
+/DomainDrivenDesign\src\DomainDrivenDesign.Application/bin
+/DomainDrivenDesign\src\DomainDrivenDesign.Application/obj
+/DomainDrivenDesign\src\DomainDrivenDesign.Dekra/bin
+/DomainDrivenDesign\src\DomainDrivenDesign.Dekra/obj
+/DomainDrivenDesign\src\DomainDrivenDesign.Domain/bin
+/DomainDrivenDesign\src\DomainDrivenDesign.Domain/obj
+/DomainDrivenDesign\src\DomainDrivenDesign.Interface/bin
+/DomainDrivenDesign\src\DomainDrivenDesign.Interface/obj
+/DomainDrivenDesign\src\DomainDrivenDesign.Persistence/bin
+/DomainDrivenDesign\src\DomainDrivenDesign.Persistence/obj
 /.vs
 /SortCollectionUnitTest/bin
 /SortCollectionUnitTest/obj
